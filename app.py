@@ -37,7 +37,7 @@ display_images = cluster_images[:10]
 
 # Display images
 cols = st.columns(4)  # Display images in 4 columns
-image_folder = "images/"  # Adjust to your image folder path
+image_folder = "images/" 
 
 for i, image_name in enumerate(display_images):
     image_path = os.path.join(image_folder, image_name)
